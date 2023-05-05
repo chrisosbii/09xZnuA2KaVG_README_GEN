@@ -46,12 +46,9 @@ inquirer.prompt([
 ]).then((data) => {
     // set the filename here
     const filename = `README.md`;
-    console.log(input);
-    // validate input was good
-
     // make the readme file output
     var output = makeReadMe(data);
-    console.log(output);     
+    //console.log(output);     
     // write output to file
     // create new output directory if not here
     fs.mkdir('./output', { recursive: true }, (err) => {
