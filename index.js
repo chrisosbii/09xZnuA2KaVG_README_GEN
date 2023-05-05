@@ -147,40 +147,40 @@ function licenseMap(licenseType){
 function makeReadMe(input){
     return `# ${input.title}
 
-    ## Description
+## Description
     
-    ${input.description}
+${input.description}
     
-    ## Table of Contents
+## Table of Contents
     
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Tests](#tests)
-    * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## Installation
+## Installation
     
-    ${input.installation}
+${input.installation}
     
-    ## Usage
+## Usage
     
-    ${input.usage}
+${input.usage}
     
-    ## Credits
+## Credits
     
-    ${input.credits}
+${input.credits}
     
-    ## License
+## License
     
-    ${licenseMap(input.license)}
+${licenseMap(input.license)}
     
-    ## Tests
+## Tests
     
-    ${input.tests}
+${input.tests}
     
-    ## Questions
+## Questions
     
-    ${input.questions}`
+${input.questions}`
 }
